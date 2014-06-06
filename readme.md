@@ -1,6 +1,6 @@
 ## Swiper
 
-A tiny library for swipe events in iOS and Android browsers (Safari and Chrome). No dependencies. IE on Windows Phones is not supported. Almost none of this is completely mine, it comes from a variety of suggestions on Stackoverflow. It's main purpose is to be as tiny as humanly possible. Minified non-compressed currently at a bit over 0.5kb;
+A tiny library for swipe events in iOS and Android browsers (Safari and Chrome). No dependencies. IE on Windows Phones is not supported. Almost none of this is completely mine, it comes from a variety of suggestions on Stackoverflow. It's main purpose is to be as tiny as humanly possible.
 
 ## Usage
 

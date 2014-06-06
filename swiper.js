@@ -35,6 +35,15 @@ window.onload = function() {
                 if (Math.max(xr,yr) > 20) {
                     ce(e, (xr > yr ? (x < 0?'swl' : 'swr') : (y < 0 ? 'swu' : 'swd')));
                 }
+            },
+            touchcancel: function(e) {
+                var x = ep.x-sp.x,
+                    xr = Math.abs(x),
+                    y = ep.y-sp.y,
+                    yr = Math.abs(y);
+                if (Math.max(xr,yr) > 20) {
+                    ce(e, (xr > yr ? (x < 0?'swl' : 'swr') : (y < 0 ? 'swu' : 'swd')));
+                }
             }
         }
         
