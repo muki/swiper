@@ -5,7 +5,7 @@ A tiny library for swipe events in iOS and Android browsers (Safari and Chrome).
 ## Usage
 
 Include swiper in your html and then if you're using jQuery try something like this:
-```
+```javascript
 $('.swipe')[0].addEventListener('swr', function() {
     alert('Stop swiping me right!');
 }, false);
